@@ -1,0 +1,14 @@
+{
+  "name": "prettier-check-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:DSchau/prettier-check-repro.git",
+  "author": "Dustin Schau <dustinschau@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "prettier --check \"**/*.{md,yaml,yml,js}\""
+  },
+  "devDependencies": {
+    "prettier": "^1.16.1"
+  }
+}
